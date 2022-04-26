@@ -81,6 +81,7 @@ query:
   }'
   sales-query: '{
     findAllInvestments {
+      investmentId
       fundId 
       email
       closeDate
