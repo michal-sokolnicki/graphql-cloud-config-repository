@@ -50,6 +50,7 @@ investment:
         city
         state
         zip
+        country
       }
     }'
     investment-by-id: 'query findInvestmentById ($id: ID) {  
@@ -82,6 +83,7 @@ investment:
         city
         state
         zip
+        country
       }
     }'
     wire: '{
