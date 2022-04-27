@@ -121,5 +121,9 @@ investment:
         accountName
         swiftCode
         ffc
+        city
+        state
+        zip
+        country
       }
     }'
