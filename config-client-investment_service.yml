@@ -6,7 +6,7 @@ spring:
     console.enabled: true
     console.path: /h2-console
   datasource:
-    url: jdbc:h2:mem:testdb
+    url: jdbc:h2:mem:graphql-demo
     username: sa
     password: password
     driverClassName: org.h2.Driver
@@ -14,7 +14,7 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
     generate-ddl: true
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
     defer-datasource-initialization: true
     show-sql: true
     open-in-view: false
