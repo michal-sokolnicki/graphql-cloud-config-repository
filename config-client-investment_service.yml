@@ -110,6 +110,7 @@ investment:
         closeDate
         clientAccountNumber
         clientAccountName
+        bankName
       }
     }'
     client-ref: '{
