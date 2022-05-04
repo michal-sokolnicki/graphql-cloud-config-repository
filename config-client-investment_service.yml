@@ -111,6 +111,7 @@ investment:
         clientAccountNumber
         clientAccountName
         bankName
+        bankAba
       }
     }'
     client-ref: '{
